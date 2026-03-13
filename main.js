@@ -36,17 +36,28 @@ else
     alert ("Me estas boludeando");
 }
 ****************************** EJERCICIO 2**************************
-*/
-let edad = (Number (prompt ("Ingrese el numero"));
+
+let edad = Number (prompt ("Ingrese el numero"));
 if (edad > 0)
 {
     alert ("El numero es positivo")
 }
-if else (edad === 0)
+else if (edad === 0)
 {
     alert ("El numero es igual a cero ")
 }
 else 
 {
     alert ("el numero es negativo")
+}
+    ****************** EJERCICIO 3 ********************************
+*/
+let res = Number (prompt("Ingresar el numero para saber si es par o impar"))
+if (res %2 === 0)
+{
+    alert ("El numero es par")
+}
+else 
+{
+    alert ("El numero es impar")
 }
