@@ -37,7 +37,7 @@ else
 }
 ****************************** EJERCICIO 2**************************
 */
-let edad = (Number prompt ("Ingrese el numero"));
+let edad = (Number (prompt ("Ingrese el numero"));
 if (edad > 0)
 {
     alert ("El numero es positivo")
