@@ -8,12 +8,13 @@ else
 {
     alert ("Los numeros son distintos!");
 }
-*/
+    **************************** EJERCICIO 1 **************************
+
 //and &&
 //or  ||
 //not !
 let edad = Number (prompt ("Ingrese su edad!"));
-/*if (edad>=18)
+if (edad>=18)
 {
     alert ("Felicitaciones fue aceptado!");
 }
@@ -21,7 +22,7 @@ else
 {
     alert ("Usted debe ser mayor a 18 años!");
 }
-*/
+
 if (edad<18 && edad > 0)
 {
      alert ("Usted debe ser mayor a 18 años!");
@@ -33,4 +34,19 @@ else if (edad>=18 && edad<99)
 else
 {
     alert ("Me estas boludeando");
+}
+****************************** EJERCICIO 2**************************
+*/
+let edad = (Number prompt ("Ingrese el numero"));
+if (edad > 0)
+{
+    alert ("El numero es positivo")
+}
+if else (edad === 0)
+{
+    alert ("El numero es igual a cero ")
+}
+else 
+{
+    alert ("el numero es negativo")
 }
